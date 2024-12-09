@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Pravin</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.css" />
+
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        #scrollToTopBtn {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            display: none;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 24px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+            cursor: pointer;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Pravin's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Our Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+    <section id="home" class="text-center text-light d-flex align-items-center justify-content-center" style="height: 100vh; background: linear-gradient(rgba(2, 7, 25, 0.1), rgba(2, 7, 25, 0.1)), url('images/Bg.jpg'); background-size: cover; background-position: center; background-attachment: fixed;" data-aos="fade-up">
+        <div>
+            <h1>Hi, I'm Pravin K</h1>
+            <p>Software Developer | Web Developer</p>
+            <a href="#projects" class="btn btn-outline-light">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="services" class="py-5 bg-dark text-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Services</h2>
+            <div class="row">
+                <!-- Web Development -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center" data-aos="zoom-in">
+                        <div class="card-body">
+                            <i class="fas fa-laptop-code fa-3x mb-3"></i>
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">I build responsive and dynamic websites using HTML, CSS, JavaScript, and PHP. I focus on delivering high-quality, user-friendly experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Software Development -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center" data-aos="zoom-in">
+                        <div class="card-body">
+                            <i class="fas fa-cogs fa-3x mb-3"></i>
+                            <h5 class="card-title">Software Development</h5>
+                            <p class="card-text">I design and develop custom software solutions, focusing on performance, scalability, and ease of use. I work with a variety of programming languages and frameworks.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center" data-aos="zoom-in">
+                        <div class="card-body">
+                            <i class="fas fa-ad fa-3x mb-3"></i>
+                            <h5 class="card-title">Advertisement Services</h5>
+                            <p class="card-text">I create impactful advertisements to help your business stand out. From digital banners to print materials, I craft tailored solutions for your brand. Let me help you reach your target audience effectively with creative and professional ads.</p>
+                        </div>
+                    </div>
+                </div>                
+                
+                <!-- Video Editing -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center" data-aos="zoom-in">
+                        <div class="card-body">
+                            <i class="fas fa-video fa-3x mb-3"></i>
+                            <h5 class="card-title">Video Editing</h5>
+                            <p class="card-text">I offer professional video editing services, including color correction, transitions, sound design, and custom effects to create stunning videos.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Banner/Pamphlet Making -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center" data-aos="zoom-in">
+                        <div class="card-body">
+                            <i class="fas fa-ad fa-3x mb-3"></i>
+                            <h5 class="card-title">Banner & Pamphlet Making</h5>
+                            <p class="card-text">I specialize in designing eye-catching banners and pamphlets for various purposes, including marketing campaigns, events, and promotions.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Photo Editing -->
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center" data-aos="zoom-in">
+                        <div class="card-body">
+                            <i class="fas fa-image fa-3x mb-3"></i>
+                            <h5 class="card-title">Photo Editing</h5>
+                            <p class="card-text">I specialize in high-quality photo editing, including retouching, color correction, background removal, and adding custom effects.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- About Us Section -->
+    <section id="about" class="py-5 bg-dark text-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/user4.jpg" class="img-fluid" alt="About Us" data-aos="zoom-in">
+                </div>
+                <div class="col-md-6">
+                    <p>As a skilled software developer, I specialize in creating efficient, high-performance programs that prioritize user experience. With expertise across a wide range of programming languages, I am committed to delivering solutions that meet both technical and business needs. My passion for clean, maintainable code ensures that every project I work on exceeds expectations.</p>
+
+                    <p>I take great pride in my attention to detail, ensuring each piece of software I develop is not only functional but also intuitive and easy to use. My goal is to continuously push the boundaries of innovation, building software that is not only effective but also transformative. I thrive on challenges and aim to provide creative solutions that make a real impact.</p>                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-dark text-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Projects</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">KR IT Education Software</h5>
+                            <p class="card-text">Developed a software application using Java Swing to manage student enrollment, course management, attendance tracking, and reporting, providing a user-friendly interface for efficient administrative tasks.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Vehicle on Rent</h5>
+                            <p class="card-text">Developed a vehicle rental website using HTML, CSS, JavaScript, and JSP, allowing users to browse available vehicles, check prices, and make rental bookings through an interactive and user-friendly interface.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">KR IT Education Online Course Website</h5>
+                            <p class="card-text">Designed and developed an online course website using PHP, HTML, CSS, and JavaScript, featuring course listings, user registration, and interactive elements for a seamless learning experience.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card bg-secondary text-light text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Laboratory Management System Software</h5>
+                            <p class="card-text">Developed a laboratory management system using Electron.js with HTML, CSS, and JavaScript, allowing users to add and view patient details, manage blood test results, and track inventory and lab schedules through an intuitive desktop application interface.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-5 bg-dark text-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Skills</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5>Web Design</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Python</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 70%;">70%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Java</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Django</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 65%;">65%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>SQL/MySQL</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 90%;">90%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>C#,C/C++</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 65%;">65%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Software Design</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>.NET</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5>Php</h5>
+                    <div class="progress">
+                        <div class="progress-bar bg-success" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5 bg-dark text-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Experience</h2>
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body">
+                            <h5 class="card-title">Software & Web Developer at KR IT Education</h5>
+                            <p class="card-text"><strong>June 2024 - October 2024</strong></p>
+                            <ul>
+                                <li>Developed a software application for KR IT Education using Java Swing to manage student enrollment, course management, attendance tracking, and reporting.</li>
+                                <li>Created a user-friendly interface to streamline administrative tasks and improve overall efficiency for both staff and students.</li>
+                                <li>Designed and developed a fully functional website for KR IT Education using HTML, CSS, JavaScript, and PHP.</li>
+                                <li>Created features such as course listings, student registration, and progress tracking to improve the user experience for students and administrators.</li>
+                                <li>Ensured the website was responsive, optimized, and easy to navigate on various devices.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="py-5 bg-dark text-light" data-aos="fade-up">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <!-- Contact Form -->
+                <div class="col-md-6">
+                    <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="e633d09f-f866-43f9-a445-7a3a4eb5f380">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-light">Send Message</button>
+                    </form>
+                </div>
+                <!-- Google Maps Embed -->
+                <div class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30142.82739461336!2d72.84726580046497!3d19.201603328231204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b73c4a1c5789%3A0x96e40cabbd1f81c3!2sKandivali%2C%20Kandivali%20East%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1728279000675!5m2!1sen!2sin" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer class="py-4 text-light text-center" style="background-color: #111;">
+        <p>&copy; 2024 Pravin. All rights reserved.</p>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" onclick="scrollToTop()">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- AOS Animation JS -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
